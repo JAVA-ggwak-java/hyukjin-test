@@ -1,2 +1,3 @@
 # hyukjin-test
-java-ggwak-java team repository
+java-ggwak-java team repository.  
+repository practice
