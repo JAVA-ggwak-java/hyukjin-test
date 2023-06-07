@@ -1,0 +1,150 @@
+body{margin: 0;}
+@font-face {
+    font-family: "jack";
+    src: url("../Righteous-Regular.ttf");
+}
+header {
+    background-color: black;
+    padding: 15px;
+    margin: 0;
+    font-family: "jack";
+}
+h3{
+    float:left;
+    color:white;
+    font-size:25px;
+    margin:0 0 0 0;
+}
+ nav ul {
+    list-style-type: none; /*목록의 머리기호 삭제*/
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ nav a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    font-size: 20px;
+}
+body{
+    background-color:black;
+}
+ #container{
+     display: flex;
+     flex-wrap: wrap;
+     height:200px;
+     
+     justify-content : center;
+     text-align: center;
+     font-family: "jack";
+     background-color:black;
+     color:white;
+ }
+ #interest{
+    display: flex;
+    flex-wrap: wrap;
+    height:200px;
+    justify-content : right;
+    text-align: center;
+    font-family: "jack";
+    background-color:black;
+    color:white;
+}
+ #detail{
+    display: flex;
+    flex-wrap: wrap;
+    height:200px;
+    justify-content : center;
+    text-align: center;
+    font-family: "jack";
+    background-color:black;
+    color:white;
+}
+#container p {
+    height:1000px;
+    color:white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-skype{
+    background:#55ACEE;
+    color:white;
+  }
+  .fa-linkedin{
+    background: #55ACEE;
+    color:white;
+  }
+  .fa-rss{
+    background:orange;
+    color:white;
+  }
+.profile-icon a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 15px;
+}
+ .profile-picture {
+    width: 200px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1em;
+    border: 0.5em solid black; 
+    box-shadow: 0 0 0.1em 1.5em mintcream;
+}
+.profile-box {
+width: 300px;
+height: 355px;
+background: black;
+border-radius: 30px;
+position: absolute;
+left: 40%;
+top: 100px;
+}
+
+ .title-name,.title-nickname {
+margin: 20px;
+text-align: center;
+font-family: "jack";
+color:white;
+}
+.main-box {
+    height: 430px;
+    width: 1425px;
+    background-image: url("../bg.jpeg");
+}
+table{
+    width:300px;
+    margin: 10px;
+
+}
+/*
+ @media all and (max-width: 600px){
+    #container, nav{
+        flex-direction: column;
+    }
+ }
+
+*/
